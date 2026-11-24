@@ -1,0 +1,9 @@
+ <fps><item><title><![CDATA[A ]]><![CDATA[B]]></title>
+<url><![CDATA[https://example.com/]]><![CDATA[test]]></url>
+<description><![CDATA[desc ]]><![CDATA[ription]]></description>
+<hint><![CDATA[first hint]]></hint>
+<time_limit unit="ms"><![CDATA[1250]]></time_limit>
+<memory_limit unit="MB"><![CDATA[64]]></memory_limit>
+<test_input name="custom name"><![CDATA[first ]]><![CDATA[second]]></test_input>
+<test_output><![CDATA[third fourth]]></test_output>
+</item></fps>

@@ -1,0 +1,7 @@
+-- comment
+local t = {1, 2, "x", [[long
+string]]}
+function f(a) return a * 2.5e3 end
+--[[ block
+comment ]]
+print(f(#t))

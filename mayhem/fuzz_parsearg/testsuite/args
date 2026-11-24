@@ -1,0 +1,1 @@
+-o "%EXE%" "$(SOURCE)" -I"<DIR>" -std=c++17 \"q\" 'single quoted' <SOURCE>

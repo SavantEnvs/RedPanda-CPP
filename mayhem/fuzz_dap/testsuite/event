@@ -1,0 +1,1 @@
+{"seq":3,"type":"event","event":"stopped","body":{"reason":"breakpoint","threadId":1}}

@@ -1,0 +1,11 @@
+project: savantenvs/RedPanda-CPP
+target: fuzz_problemset
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_problemset/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzz/bin/fuzz_problemset
+    libfuzzer: true
+    timeout: 10

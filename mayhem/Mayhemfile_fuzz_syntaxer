@@ -1,0 +1,11 @@
+project: savantenvs/RedPanda-CPP
+target: fuzz_syntaxer
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_syntaxer/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzz/bin/fuzz_syntaxer
+    libfuzzer: true
+    timeout: 10

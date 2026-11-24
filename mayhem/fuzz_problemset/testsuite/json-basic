@@ -1,0 +1,1 @@
+{"name":"set","current_index":0,"problems":[{"name":"p1","url":"https://e/x","time_limit":1000,"memory_limit":256,"time_limit_unit":0,"memory_limit_unit":0,"description":"d","hint":"h","answer_program":"a.cpp","cases":[{"name":"c1","input":"1 2","expected":"3","input_filename":"%ProblemSetPath%/in.txt","expected_output_filename":""}]}]}

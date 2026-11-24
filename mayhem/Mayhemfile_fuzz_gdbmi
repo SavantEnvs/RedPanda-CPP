@@ -1,0 +1,11 @@
+project: savantenvs/RedPanda-CPP
+target: fuzz_gdbmi
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_gdbmi/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzz/bin/fuzz_gdbmi
+    libfuzzer: true
+    timeout: 10

@@ -1,0 +1,11 @@
+project: savantenvs/RedPanda-CPP
+target: fuzz_parsearg
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_parsearg/testsuite
+
+cmds:
+  - cmd: /mayhem/build/fuzz/bin/fuzz_parsearg
+    libfuzzer: true
+    timeout: 10

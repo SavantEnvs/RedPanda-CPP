@@ -1,0 +1,1 @@
+^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x0000000000401136",func="main",file="a.c",fullname="/tmp/a.c",line="5",thread-groups=["i1"],times="0"}
